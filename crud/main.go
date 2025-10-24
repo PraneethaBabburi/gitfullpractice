@@ -137,7 +137,7 @@ func deleteProduct(w http.ResponseWriter, r *http.Request) {
 }
 
 func main() {
-	fmt.Println("now changing the name to bhavani branch")
+	fmt.Println("now changing the name to bhavani dev2 branch")
 	http.HandleFunc("/products", func(w http.ResponseWriter, r *http.Request) {
 		switch r.Method {
 		case http.MethodPost:
