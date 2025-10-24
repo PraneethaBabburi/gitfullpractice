@@ -137,6 +137,7 @@ func deleteProduct(w http.ResponseWriter, r *http.Request) {
 }
 
 func main() {
+	fmt.Println("my change 1")
 	http.HandleFunc("/products", func(w http.ResponseWriter, r *http.Request) {
 		switch r.Method {
 		case http.MethodPost:
